@@ -27,6 +27,7 @@ placeholder:
     - echo "Hello Verituity"
 
 release:
+  stage: release
   extends: .git-tag
   variables:
     GIT_TAG_PREFIX: $VERSION_MAJOR_MINOR
