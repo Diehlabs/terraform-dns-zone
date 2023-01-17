@@ -1,5 +1,5 @@
-Currently this will only create sub-zones.
-Minor updates required to allow creation of top level zones.
+# terraform-azure-dns-zone
+* Creates a primary or sub DNS zone
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
